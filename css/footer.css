@@ -68,7 +68,7 @@ footer a:hover {
 .copyright i {
 }
 .copyright {
-  transform: translateX(470px);
+  padding-left: 470px;
   font-size: 12px;
   display: flex;
   padding-top: 10px;
