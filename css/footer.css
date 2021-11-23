@@ -56,7 +56,7 @@ footer a:hover {
 /* not responsive part :( */
 
 .myApple {
-  transform: translateX(480px);
+  margin: auto;
   font-size: 12px;
   padding: 15px 0 10px 0;
   border-bottom: 0.8px solid;
@@ -65,16 +65,14 @@ footer a:hover {
 .myApple a {
   color: #0066cc;
 }
-.copyright i {
-}
+
 .copyright {
-  padding-left: 470px;
+  margin: auto;
   font-size: 12px;
   display: flex;
   padding-top: 10px;
-}
-.copyright p {
-  padding: 0 10px;
+  justify-content: space-between;
+  width: 955px;
 }
 .copyright span {
   padding: 0 5px;
